@@ -28,6 +28,54 @@ RMS solves this by providing a simple digital system for restaurant staff and ow
 - Deployment: Netlify
 
 ## 📁 Project Structure
+src/
+├─ components/
+│ ├─ Analytics.tsx
+│ ├─ KitchenDisplay.tsx
+│ ├─ OrderForm.tsx
+│ └─ TableGrid.tsx
+│
+├─ lib/
+│ ├─ database.ts # Database queries & helpers
+│ └─ supabase.ts # Supabase client configuration
+│
+├─ types/
+│ ├─ index.ts
+│ └─ supabase.ts
+│
+├─ App.tsx
+├─ main.tsx
+└─ index.css
 
+## 📁 DataBase Structure
+supabase/migrations/
+├─ 20250131_light_wood.sql
+├─ 20250201_sparkling_frog.sql
+├─ 20250210_wispy_crystal.sql
+├─ 20250208_damp_art.sql
+├─ 20250317_dry_term.sql
+├─ 20250317_bronze_summit.sql
+
+---
+
+## 🗄️ Database Design
+
+- PostgreSQL database managed via Supabase
+- Schema changes handled using **migration files**
+- Ensures version control and scalability of database structure
+
+This approach reflects real production workflows instead of manual DB changes.
+
+---
+
+## 🔐 Environment Variables
+
+Environment variables are **not committed** for security reasons.
+
+Create a `.env` file using the provided template:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 
