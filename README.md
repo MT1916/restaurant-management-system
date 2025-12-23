@@ -68,6 +68,18 @@ This approach reflects real production workflows instead of manual DB changes.
 
 ---
 
+📈 Future Enhancements
+
+Inventory & waste management
+
+Role-based access (Admin / Staff)
+
+Monthly and yearly sales reports
+
+Export reports for business analysis
+
+---
+
 ## 🔐 Environment Variables
 
 Environment variables are **not committed** for security reasons.
@@ -87,21 +99,3 @@ npm run dev
 The application will run on:
 
 http://localhost:5173
-
-
-📈 Future Enhancements
-
-Inventory & waste management
-
-Role-based access (Admin / Staff)
-
-Monthly and yearly sales reports
-
-Export reports for business analysis
-
-👤 Author
-
-Mohammed
-Computer Engineering Student
-Business Analytics | Entrepreneurship | GATE DA Aspirant
-
