@@ -79,3 +79,29 @@ VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 
+🧪 Run Locally
+npm install
+npm run dev
+
+
+The application will run on:
+
+http://localhost:5173
+
+
+📈 Future Enhancements
+
+Inventory & waste management
+
+Role-based access (Admin / Staff)
+
+Monthly and yearly sales reports
+
+Export reports for business analysis
+
+👤 Author
+
+Mohammed
+Computer Engineering Student
+Business Analytics | Entrepreneurship | GATE DA Aspirant
+
