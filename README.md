@@ -27,7 +27,9 @@ RMS solves this by providing a simple digital system for restaurant staff and ow
 - Database: PostgreSQL
 - Deployment: Netlify
 
+
 ## 📁 Project Structure
+
 src/
 ├─ components/
 │ ├─ Analytics.tsx
@@ -63,8 +65,6 @@ supabase/migrations/
 - PostgreSQL database managed via Supabase
 - Schema changes handled using **migration files**
 - Ensures version control and scalability of database structure
-
-This approach reflects real production workflows instead of manual DB changes.
 
 ---
 
